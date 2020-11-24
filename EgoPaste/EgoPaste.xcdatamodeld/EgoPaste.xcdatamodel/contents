@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17510.1" systemVersion="20B29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Card" representedClassName="Card" syncable="YES" codeGenerationType="class">
+        <attribute name="createTime" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="frozen" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="pastes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Paste" inverseName="card" inverseEntity="Paste"/>
+    </entity>
+    <entity name="Paste" representedClassName="Paste" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="createTime" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="pasteNum" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="pasteTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="card" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Card" inverseName="pastes" inverseEntity="Card"/>
+        <relationship name="contents" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PasteContent" inverseName="paste" inverseEntity="PasteContent"/>
+    </entity>
+    <entity name="PasteContent" representedClassName="PasteContent" syncable="YES" codeGenerationType="class">
+        <attribute name="type" attributeType="String"/>
+        <attribute name="value" optional="YES" attributeType="Binary"/>
+        <relationship name="paste" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Paste" inverseName="contents" inverseEntity="Paste"/>
+    </entity>
+    <elements>
+        <element name="Card" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="Paste" positionX="-9" positionY="36" width="128" height="119"/>
+        <element name="PasteContent" positionX="-36" positionY="18" width="128" height="74"/>
+    </elements>
+</model>

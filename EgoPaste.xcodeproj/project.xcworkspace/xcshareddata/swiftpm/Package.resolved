@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "KeyboardShortcuts",
+        "repositoryURL": "https://github.com/sindresorhus/KeyboardShortcuts",
+        "state": {
+          "branch": null,
+          "revision": "81e72f4787f2d642d788594834f42431f079e505",
+          "version": "0.6.0"
+        }
+      },
+      {
+        "package": "LoginServiceKit",
+        "repositoryURL": "https://github.com/Clipy/LoginServiceKit",
+        "state": {
+          "branch": null,
+          "revision": "14e88a763ddd230708060c52e5be2662d9142e91",
+          "version": "2.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

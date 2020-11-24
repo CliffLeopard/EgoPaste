@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  EgoPaste
+
+  Created by CliffLeopard on 2020/11/13.
+  
+*/
+
+"search_placeholder" = "Search...";
+"clear_all_tooltip" = "Clear all items.";
+"about" = "About";
+"quit_tooltip" = "Quit application.";
+"clear" = "Clear";
+"clear_all" = "Clear All History";
+"about" = "About";
+"quit" = "Quit";
+"preferences" = "Preferences";
+"preferences_advanced" = "Advanced";
+"preferences_appearance" = "Appearance";
+"preferences_general" = "General";
+"preferences_shortcut" = "Shortcuts";
+"preferences_login_launch" = "LoginLaunch";
+"preferences_file_size" = "File Size";
+"first_copy_time_tooltip" = "First copy time";
+"last_copy_time_tooltip" = "Last copy time";
+"number_of_copies_tooltip" = "Number of copies";
+"accessibility_alert_message" = "“EgoPaste” would like to control this computer using accessibility features.";
+"accessibility_alert_comment" = "Grant access to this application in Security & Privacy preferences, located in System Preferences.";
+"accessibility_alert_deny" = "Deny";
+"accessibility_alert_open" = "Open System Preferences";
+"empty_paste_board" = "This Paste Board Is Empty";

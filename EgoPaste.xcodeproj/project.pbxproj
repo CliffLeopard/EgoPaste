@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C0AC1E22567A190003A5990 /* DataBaseTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0AC1E12567A190003A5990 /* DataBaseTestView.swift */; };
+		3C1277772561F96300ECCCCD /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1277762561F96300ECCCCD /* SearchBarView.swift */; };
+		3C4B1C12255AF042008A03E2 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 3C4B1C11255AF042008A03E2 /* KeyboardShortcuts */; };
+		3C4B1C17255AF078008A03E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B1C16255AF078008A03E2 /* Constants.swift */; };
+		3C4B1C1F255AF7DF008A03E2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B1C1E255AF7DF008A03E2 /* SettingsView.swift */; };
+		3C4B1C25255AF8C6008A03E2 /* LoginServiceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3C4B1C24255AF8C6008A03E2 /* LoginServiceKit */; };
+		3C4B1D20255B6DE7008A03E2 /* ModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B1D1F255B6DE7008A03E2 /* ModelExtension.swift */; };
+		3C841486255FD2F000EA1DB5 /* BackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C841485255FD2F000EA1DB5 /* BackView.swift */; };
+		3C84151B25608EAC00EA1DB5 /* MainContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C84151A25608EAC00EA1DB5 /* MainContentController.swift */; };
+		3C84152025608EC300EA1DB5 /* PopoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C84151F25608EC300EA1DB5 /* PopoverController.swift */; };
+		3C84152525608ED300EA1DB5 /* PanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C84152425608ED300EA1DB5 /* PanelController.swift */; };
+		3C84152A256095F600EA1DB5 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C841529256095F600EA1DB5 /* StatusBarController.swift */; };
+		3C84152F2560989000EA1DB5 /* ShortcutsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C84152E2560989000EA1DB5 /* ShortcutsController.swift */; };
+		3C88BCE2256120C30029A04E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C88BCE1256120C30029A04E /* AppState.swift */; };
+		3C9B4855255DA76D004CE3C5 /* Clipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B4854255DA76D004CE3C5 /* Clipboard.swift */; };
+		3C9B485A255DA9CA004CE3C5 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B4859255DA9CA004CE3C5 /* UserDefaultsExtension.swift */; };
+		3C9B4922255E3FD0004CE3C5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B4924255E3FD0004CE3C5 /* Localizable.strings */; };
+		3CA6F19925627C4B00E5B73D /* Introspect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA6F19825627C4B00E5B73D /* Introspect.swift */; };
+		3CA6F1A625627CF800E5B73D /* OverlayRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA6F1A525627CF800E5B73D /* OverlayRepresentable.swift */; };
+		3CA6F4302563F8A500E5B73D /* FocusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA6F42F2563F8A500E5B73D /* FocusTextField.swift */; };
+		3CD41485255A113B00843664 /* EgoPasteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD41484255A113B00843664 /* EgoPasteApp.swift */; };
+		3CD41487255A113B00843664 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD41486255A113B00843664 /* ContentView.swift */; };
+		3CD41489255A113D00843664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD41488255A113D00843664 /* Assets.xcassets */; };
+		3CD4148C255A113D00843664 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4148B255A113D00843664 /* Preview Assets.xcassets */; };
+		3CD4148E255A113D00843664 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4148D255A113D00843664 /* Persistence.swift */; };
+		3CD41491255A113D00843664 /* EgoPaste.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4148F255A113D00843664 /* EgoPaste.xcdatamodeld */; };
+		3CD4149D255A113D00843664 /* EgoPasteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4149C255A113D00843664 /* EgoPasteTests.swift */; };
+		3CD414A8255A113D00843664 /* EgoPasteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD414A7255A113D00843664 /* EgoPasteUITests.swift */; };
+		3CD414B9255A132100843664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD414B8255A132100843664 /* AppDelegate.swift */; };
+		3CD414CD255A183500843664 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD414CC255A183500843664 /* HeaderView.swift */; };
+		3CD414D5255A18A700843664 /* PasteBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD414D4255A18A700843664 /* PasteBoardView.swift */; };
+		3CD414DA255A190100843664 /* PasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD414D9255A190100843664 /* PasteView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CD41499255A113D00843664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CD41479255A113B00843664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CD41480255A113B00843664;
+			remoteInfo = EgoPaste;
+		};
+		3CD414A4255A113D00843664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CD41479255A113B00843664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CD41480255A113B00843664;
+			remoteInfo = EgoPaste;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C0AC1E12567A190003A5990 /* DataBaseTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseTestView.swift; sourceTree = "<group>"; };
+		3C1277762561F96300ECCCCD /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		3C4B1C16255AF078008A03E2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3C4B1C1E255AF7DF008A03E2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3C4B1D1F255B6DE7008A03E2 /* ModelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExtension.swift; sourceTree = "<group>"; };
+		3C841485255FD2F000EA1DB5 /* BackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackView.swift; sourceTree = "<group>"; };
+		3C84151A25608EAC00EA1DB5 /* MainContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentController.swift; sourceTree = "<group>"; };
+		3C84151F25608EC300EA1DB5 /* PopoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverController.swift; sourceTree = "<group>"; };
+		3C84152425608ED300EA1DB5 /* PanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelController.swift; sourceTree = "<group>"; };
+		3C841529256095F600EA1DB5 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		3C84152E2560989000EA1DB5 /* ShortcutsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsController.swift; sourceTree = "<group>"; };
+		3C88BCE1256120C30029A04E /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		3C9B4854255DA76D004CE3C5 /* Clipboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clipboard.swift; sourceTree = "<group>"; };
+		3C9B4859255DA9CA004CE3C5 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		3C9B4923255E3FD0004CE3C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3C9B4928255E3FDF004CE3C5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3CA6F19825627C4B00E5B73D /* Introspect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introspect.swift; sourceTree = "<group>"; };
+		3CA6F1A525627CF800E5B73D /* OverlayRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayRepresentable.swift; sourceTree = "<group>"; };
+		3CA6F42F2563F8A500E5B73D /* FocusTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTextField.swift; sourceTree = "<group>"; };
+		3CD41481255A113B00843664 /* EgoPaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EgoPaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD41484255A113B00843664 /* EgoPasteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgoPasteApp.swift; sourceTree = "<group>"; };
+		3CD41486255A113B00843664 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CD41488255A113D00843664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CD4148B255A113D00843664 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CD4148D255A113D00843664 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3CD41490255A113D00843664 /* EgoPaste.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EgoPaste.xcdatamodel; sourceTree = "<group>"; };
+		3CD41492255A113D00843664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CD41493255A113D00843664 /* EgoPaste.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EgoPaste.entitlements; sourceTree = "<group>"; };
+		3CD41498255A113D00843664 /* EgoPasteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EgoPasteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD4149C255A113D00843664 /* EgoPasteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgoPasteTests.swift; sourceTree = "<group>"; };
+		3CD4149E255A113D00843664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CD414A3255A113D00843664 /* EgoPasteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EgoPasteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD414A7255A113D00843664 /* EgoPasteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgoPasteUITests.swift; sourceTree = "<group>"; };
+		3CD414A9255A113D00843664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CD414B8255A132100843664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CD414CC255A183500843664 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3CD414D4255A18A700843664 /* PasteBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteBoardView.swift; sourceTree = "<group>"; };
+		3CD414D9255A190100843664 /* PasteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CD4147E255A113B00843664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4B1C12255AF042008A03E2 /* KeyboardShortcuts in Frameworks */,
+				3C4B1C25255AF8C6008A03E2 /* LoginServiceKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD41495255A113D00843664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD414A0255A113D00843664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C84153925609B0700EA1DB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C84151A25608EAC00EA1DB5 /* MainContentController.swift */,
+				3C84151F25608EC300EA1DB5 /* PopoverController.swift */,
+				3C84152425608ED300EA1DB5 /* PanelController.swift */,
+				3C841529256095F600EA1DB5 /* StatusBarController.swift */,
+				3C84152E2560989000EA1DB5 /* ShortcutsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C84153B25609B7000EA1DB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B4859255DA9CA004CE3C5 /* UserDefaultsExtension.swift */,
+				3C4B1C16255AF078008A03E2 /* Constants.swift */,
+				3C4B1D1F255B6DE7008A03E2 /* ModelExtension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CA6F19725627C3600E5B73D /* Introspect */ = {
+			isa = PBXGroup;
+			children = (
+				3CA6F19825627C4B00E5B73D /* Introspect.swift */,
+				3CA6F1A525627CF800E5B73D /* OverlayRepresentable.swift */,
+			);
+			path = Introspect;
+			sourceTree = "<group>";
+		};
+		3CD41478255A113B00843664 = {
+			isa = PBXGroup;
+			children = (
+				3CD41483255A113B00843664 /* EgoPaste */,
+				3CD4149B255A113D00843664 /* EgoPasteTests */,
+				3CD414A6255A113D00843664 /* EgoPasteUITests */,
+				3CD41482255A113B00843664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CD41482255A113B00843664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CD41481255A113B00843664 /* EgoPaste.app */,
+				3CD41498255A113D00843664 /* EgoPasteTests.xctest */,
+				3CD414A3255A113D00843664 /* EgoPasteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CD41483255A113B00843664 /* EgoPaste */ = {
+			isa = PBXGroup;
+			children = (
+				3CA6F19725627C3600E5B73D /* Introspect */,
+				3C84153B25609B7000EA1DB5 /* Model */,
+				3C84153925609B0700EA1DB5 /* Controller */,
+				3CD414B8255A132100843664 /* AppDelegate.swift */,
+				3CD41486255A113B00843664 /* ContentView.swift */,
+				3C0AC1E12567A190003A5990 /* DataBaseTestView.swift */,
+				3CD414CC255A183500843664 /* HeaderView.swift */,
+				3C1277762561F96300ECCCCD /* SearchBarView.swift */,
+				3CA6F42F2563F8A500E5B73D /* FocusTextField.swift */,
+				3CD414D4255A18A700843664 /* PasteBoardView.swift */,
+				3CD414D9255A190100843664 /* PasteView.swift */,
+				3C841485255FD2F000EA1DB5 /* BackView.swift */,
+				3C4B1C1E255AF7DF008A03E2 /* SettingsView.swift */,
+				3CD41484255A113B00843664 /* EgoPasteApp.swift */,
+				3C9B4854255DA76D004CE3C5 /* Clipboard.swift */,
+				3C88BCE1256120C30029A04E /* AppState.swift */,
+				3CD4148D255A113D00843664 /* Persistence.swift */,
+				3C9B4924255E3FD0004CE3C5 /* Localizable.strings */,
+				3CD41492255A113D00843664 /* Info.plist */,
+				3CD41493255A113D00843664 /* EgoPaste.entitlements */,
+				3CD4148F255A113D00843664 /* EgoPaste.xcdatamodeld */,
+				3CD41488255A113D00843664 /* Assets.xcassets */,
+				3CD4148A255A113D00843664 /* Preview Content */,
+			);
+			path = EgoPaste;
+			sourceTree = "<group>";
+		};
+		3CD4148A255A113D00843664 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CD4148B255A113D00843664 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CD4149B255A113D00843664 /* EgoPasteTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CD4149C255A113D00843664 /* EgoPasteTests.swift */,
+				3CD4149E255A113D00843664 /* Info.plist */,
+			);
+			path = EgoPasteTests;
+			sourceTree = "<group>";
+		};
+		3CD414A6255A113D00843664 /* EgoPasteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CD414A7255A113D00843664 /* EgoPasteUITests.swift */,
+				3CD414A9255A113D00843664 /* Info.plist */,
+			);
+			path = EgoPasteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CD41480255A113B00843664 /* EgoPaste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD414AC255A113D00843664 /* Build configuration list for PBXNativeTarget "EgoPaste" */;
+			buildPhases = (
+				3CD4147D255A113B00843664 /* Sources */,
+				3CD4147E255A113B00843664 /* Frameworks */,
+				3CD4147F255A113B00843664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EgoPaste;
+			packageProductDependencies = (
+				3C4B1C11255AF042008A03E2 /* KeyboardShortcuts */,
+				3C4B1C24255AF8C6008A03E2 /* LoginServiceKit */,
+			);
+			productName = EgoPaste;
+			productReference = 3CD41481255A113B00843664 /* EgoPaste.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CD41497255A113D00843664 /* EgoPasteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD414AF255A113D00843664 /* Build configuration list for PBXNativeTarget "EgoPasteTests" */;
+			buildPhases = (
+				3CD41494255A113D00843664 /* Sources */,
+				3CD41495255A113D00843664 /* Frameworks */,
+				3CD41496255A113D00843664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CD4149A255A113D00843664 /* PBXTargetDependency */,
+			);
+			name = EgoPasteTests;
+			productName = EgoPasteTests;
+			productReference = 3CD41498255A113D00843664 /* EgoPasteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CD414A2255A113D00843664 /* EgoPasteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD414B2255A113D00843664 /* Build configuration list for PBXNativeTarget "EgoPasteUITests" */;
+			buildPhases = (
+				3CD4149F255A113D00843664 /* Sources */,
+				3CD414A0255A113D00843664 /* Frameworks */,
+				3CD414A1255A113D00843664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CD414A5255A113D00843664 /* PBXTargetDependency */,
+			);
+			name = EgoPasteUITests;
+			productName = EgoPasteUITests;
+			productReference = 3CD414A3255A113D00843664 /* EgoPasteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CD41479255A113B00843664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					3CD41480255A113B00843664 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					3CD41497255A113D00843664 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3CD41480255A113B00843664;
+					};
+					3CD414A2255A113D00843664 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3CD41480255A113B00843664;
+					};
+				};
+			};
+			buildConfigurationList = 3CD4147C255A113B00843664 /* Build configuration list for PBXProject "EgoPaste" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 3CD41478255A113B00843664;
+			packageReferences = (
+				3C4B1C10255AF042008A03E2 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+				3C4B1C23255AF8C6008A03E2 /* XCRemoteSwiftPackageReference "LoginServiceKit" */,
+			);
+			productRefGroup = 3CD41482255A113B00843664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CD41480255A113B00843664 /* EgoPaste */,
+				3CD41497255A113D00843664 /* EgoPasteTests */,
+				3CD414A2255A113D00843664 /* EgoPasteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CD4147F255A113B00843664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD4148C255A113D00843664 /* Preview Assets.xcassets in Resources */,
+				3C9B4922255E3FD0004CE3C5 /* Localizable.strings in Resources */,
+				3CD41489255A113D00843664 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD41496255A113D00843664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD414A1255A113D00843664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CD4147D255A113B00843664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA6F4302563F8A500E5B73D /* FocusTextField.swift in Sources */,
+				3C4B1C17255AF078008A03E2 /* Constants.swift in Sources */,
+				3CD414D5255A18A700843664 /* PasteBoardView.swift in Sources */,
+				3CD4148E255A113D00843664 /* Persistence.swift in Sources */,
+				3CA6F19925627C4B00E5B73D /* Introspect.swift in Sources */,
+				3C9B4855255DA76D004CE3C5 /* Clipboard.swift in Sources */,
+				3C841486255FD2F000EA1DB5 /* BackView.swift in Sources */,
+				3C84152F2560989000EA1DB5 /* ShortcutsController.swift in Sources */,
+				3C84152025608EC300EA1DB5 /* PopoverController.swift in Sources */,
+				3C4B1D20255B6DE7008A03E2 /* ModelExtension.swift in Sources */,
+				3CD414DA255A190100843664 /* PasteView.swift in Sources */,
+				3CD414CD255A183500843664 /* HeaderView.swift in Sources */,
+				3C1277772561F96300ECCCCD /* SearchBarView.swift in Sources */,
+				3CD41491255A113D00843664 /* EgoPaste.xcdatamodeld in Sources */,
+				3C88BCE2256120C30029A04E /* AppState.swift in Sources */,
+				3C9B485A255DA9CA004CE3C5 /* UserDefaultsExtension.swift in Sources */,
+				3C84152A256095F600EA1DB5 /* StatusBarController.swift in Sources */,
+				3CD41487255A113B00843664 /* ContentView.swift in Sources */,
+				3C84152525608ED300EA1DB5 /* PanelController.swift in Sources */,
+				3CA6F1A625627CF800E5B73D /* OverlayRepresentable.swift in Sources */,
+				3C4B1C1F255AF7DF008A03E2 /* SettingsView.swift in Sources */,
+				3C84151B25608EAC00EA1DB5 /* MainContentController.swift in Sources */,
+				3C0AC1E22567A190003A5990 /* DataBaseTestView.swift in Sources */,
+				3CD414B9255A132100843664 /* AppDelegate.swift in Sources */,
+				3CD41485255A113B00843664 /* EgoPasteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD41494255A113D00843664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD4149D255A113D00843664 /* EgoPasteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD4149F255A113D00843664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD414A8255A113D00843664 /* EgoPasteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CD4149A255A113D00843664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CD41480255A113B00843664 /* EgoPaste */;
+			targetProxy = 3CD41499255A113D00843664 /* PBXContainerItemProxy */;
+		};
+		3CD414A5255A113D00843664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CD41480255A113B00843664 /* EgoPaste */;
+			targetProxy = 3CD414A4255A113D00843664 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C9B4924255E3FD0004CE3C5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C9B4923255E3FD0004CE3C5 /* en */,
+				3C9B4928255E3FDF004CE3C5 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CD414AA255A113D00843664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CD414AB255A113D00843664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3CD414AD255A113D00843664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EgoPaste/EgoPaste.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EgoPaste/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PWPMZSNW7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EgoPaste/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliff.EgoPaste;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3CD414AE255A113D00843664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EgoPaste/EgoPaste.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EgoPaste/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PWPMZSNW7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EgoPaste/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliff.EgoPaste;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3CD414B0255A113D00843664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2PWPMZSNW7;
+				INFOPLIST_FILE = EgoPasteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliff.EgoPasteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EgoPaste.app/Contents/MacOS/EgoPaste";
+			};
+			name = Debug;
+		};
+		3CD414B1255A113D00843664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2PWPMZSNW7;
+				INFOPLIST_FILE = EgoPasteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliff.EgoPasteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EgoPaste.app/Contents/MacOS/EgoPaste";
+			};
+			name = Release;
+		};
+		3CD414B3255A113D00843664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2PWPMZSNW7;
+				INFOPLIST_FILE = EgoPasteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliff.EgoPasteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EgoPaste;
+			};
+			name = Debug;
+		};
+		3CD414B4255A113D00843664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2PWPMZSNW7;
+				INFOPLIST_FILE = EgoPasteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliff.EgoPasteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EgoPaste;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CD4147C255A113B00843664 /* Build configuration list for PBXProject "EgoPaste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD414AA255A113D00843664 /* Debug */,
+				3CD414AB255A113D00843664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CD414AC255A113D00843664 /* Build configuration list for PBXNativeTarget "EgoPaste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD414AD255A113D00843664 /* Debug */,
+				3CD414AE255A113D00843664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CD414AF255A113D00843664 /* Build configuration list for PBXNativeTarget "EgoPasteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD414B0255A113D00843664 /* Debug */,
+				3CD414B1255A113D00843664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CD414B2255A113D00843664 /* Build configuration list for PBXNativeTarget "EgoPasteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD414B3255A113D00843664 /* Debug */,
+				3CD414B4255A113D00843664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3C4B1C10255AF042008A03E2 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
+		3C4B1C23255AF8C6008A03E2 /* XCRemoteSwiftPackageReference "LoginServiceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Clipy/LoginServiceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C4B1C11255AF042008A03E2 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C4B1C10255AF042008A03E2 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+		3C4B1C24255AF8C6008A03E2 /* LoginServiceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C4B1C23255AF8C6008A03E2 /* XCRemoteSwiftPackageReference "LoginServiceKit" */;
+			productName = LoginServiceKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		3CD4148F255A113D00843664 /* EgoPaste.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CD41490255A113D00843664 /* EgoPaste.xcdatamodel */,
+			);
+			currentVersion = 3CD41490255A113D00843664 /* EgoPaste.xcdatamodel */;
+			path = EgoPaste.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3CD41479255A113B00843664 /* Project object */;
+}
