@@ -8,4 +8,6 @@
 
 ## ShortCut
 
-`CMD` + `Shift` + `V`
+* Open ClipBoard: `CMD` + `Shift` + `V`
+* Clear History:  `CMD` + `H`
+* Settings: `CMD`+`,`
