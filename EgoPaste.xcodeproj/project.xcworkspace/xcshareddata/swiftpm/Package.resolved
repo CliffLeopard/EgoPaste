@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/sindresorhus/KeyboardShortcuts",
         "state": {
           "branch": null,
-          "revision": "81e72f4787f2d642d788594834f42431f079e505",
-          "version": "0.6.0"
+          "revision": "f09de800a4f05d66fe2a9924c81a932454a9f39a",
+          "version": "0.7.1"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/Clipy/LoginServiceKit",
         "state": {
           "branch": null,
-          "revision": "14e88a763ddd230708060c52e5be2662d9142e91",
-          "version": "2.2.0"
+          "revision": "56866ab21c4a2e6644ddc015fe976f978061f3b8",
+          "version": "2.3.0"
         }
       }
     ]
